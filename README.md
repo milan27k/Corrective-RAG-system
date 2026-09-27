@@ -35,7 +35,9 @@ Relevance Evaluation
                    │
                    ↓
              Generate Answer
+
 ✨ Key Features
+
 Retrieval-Augmented Generation pipeline
 Semantic document retrieval
 Retrieved-context relevance evaluation
@@ -44,7 +46,9 @@ LLM-based answer generation
 Conditional workflow using LangGraph
 Improved handling of irrelevant retrieved context
 Modular RAG architecture
+
 🛠️ Tech Stack
+
 Python
 LangChain
 LangGraph
@@ -77,6 +81,7 @@ If the retrieved context is considered insufficient or irrelevant, the system pe
 The final context is passed to the LLM, which generates the answer based on the available information.
 
 📊 RAG vs Corrective RAG
+
 Traditional RAG	Corrective RAG
 Retrieves documents	Retrieves documents
 Directly uses retrieved context	Evaluates retrieved context
